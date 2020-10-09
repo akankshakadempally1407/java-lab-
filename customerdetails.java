@@ -6,7 +6,7 @@ class Customer {
   int age;
   String addr;
   Long mobile;
-  int noofbook;
+  int no_product;
 
   public Customer getData() {
     Scanner sc = new Scanner(System.in);
