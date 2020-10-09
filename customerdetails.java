@@ -49,7 +49,7 @@ class Customer {
   }
 }
 
-public class customerinfo {
+public class customerdetails {
   public static void main(String args[]) {
     Customer[] c1;
     Scanner sc = new Scanner(System.in);
