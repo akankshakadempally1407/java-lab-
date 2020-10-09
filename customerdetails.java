@@ -28,14 +28,14 @@ class Customer {
     }
 
     System.out.print("No of product : ");
-    int noofbook = sc.nextInt();
+    int no_product = sc.nextInt();
 
     System.out.println("\n");
     this.name = name;
     this.addr = addr;
     this.mobile = mobile;
     this.age = age;
-    this.noofbook = noofbook;
+    this.no_product = no_product;
     return this;
   }
 
@@ -45,7 +45,7 @@ class Customer {
     System.out.println("Address - " + addr);
     System.out.println("Age -" + age);
     System.out.println("Contact number - " + mobile);
-    System.out.println("no of books -" + noofbook);
+    System.out.println("no_product -" + no_product);
   }
 }
 
