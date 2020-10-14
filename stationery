@@ -25,11 +25,11 @@ public class stationery
 	{
 		if(bookid[0]==1)
 		{
-			System.out.println("Sherlock Holmes");
+			System.out.println("chart");
 		}
 		else
 		{
-			System.out.println("James Bond");
+			System.out.println("colour pencils");
 		}
 	}
 	private void details()
@@ -43,7 +43,7 @@ public class stationery
 		String name;
 		String phno;
 		int v1,v2;
-		manager Manager = new manager("hari","25252");
+		manager Manager = new manager("akanksha","25252");
 		Scanner sc=new Scanner(System.in);
 		register.intro s1 = new register.intro();    
 		register obj[] = new register[1];
@@ -55,7 +55,7 @@ public class stationery
 		name=sc.nextLine();
 		System.out.println("Enter ur phno");
 		phno=sc.nextLine();
-		System.out.println("Enter 1 for Sherlock Holmes && Enter 2 for James Bond");
+		System.out.println("Enter 1 for chart && Enter 2 for colour pencils");
 		v1=sc.nextInt();
 		v2=sc.nextInt();
 		System.out.println("****************");
@@ -67,12 +67,12 @@ public class stationery
 	}
 }
 
-class register extends bookshop      
+class register extends stationery      
 {
-	static String registerman = "joy";       
+	static String registerman = "neha";       
 	static void change()              
 	{
-		registerman="prashanth";
+		registerman="hannah";
 	}
 	static 
 	{ 
