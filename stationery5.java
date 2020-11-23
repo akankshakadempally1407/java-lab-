@@ -14,11 +14,11 @@ public class stationery5
 	int bookid;
 	manager Manager; //AGGREGATION 
 	protected String shopename;
-	bookshop5(String bkname)
+	stationery5(String bkname)
 	{
 		shopename=bkname;
-	}
-	bookshop5(String name,String phno,int v,manager Manager)
+	} 
+	stationery5(String name,String phno,int v,manager Manager)
 	{
 			this.name=name;
 			this.typeoftheproduct=typeoftheproduct;
