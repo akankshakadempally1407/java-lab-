@@ -25,6 +25,14 @@ public class stationery5
 			bookid=v;
 			this.Manager=Manager;
 	}
+	public void run()
+	{
+		for(int i=1;i<5;i++)
+		{
+			try(thread.sleep(500);)catch(interruptexception e)
+				system.out.println(i);
+		}}
+	
 	public void getbookid()
 	{
 		try
